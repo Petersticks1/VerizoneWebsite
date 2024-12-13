@@ -1,0 +1,92 @@
+.trust-container {
+  background-color: #265230;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: justify;
+  gap: 30px;
+
+  /* padding: 47px 150px; */
+  /* width: 100%; */
+  width: 1, 442px;
+  height: 707.34px;
+}
+
+.trust-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 398.67px;
+  max-height: 613.34px;
+}
+
+.trust-first img {
+  width: 398px;
+  height: 613px;
+}
+
+.trust-last {
+  display: block;
+  justify-content: center;
+  text-align: justify;
+}
+
+.trust-last-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.trust-last-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.trust-card {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 16px;
+  box-shadow: -9.44px 10.62px 26.68px 0px #00000021;
+  display: block;
+  gap: 10px;
+  width: 323.44px;
+  height: 283.3px;
+  padding: 36px 44px 30px 23px;
+  border-radius: 16px;
+}
+
+.trust-card > h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.trust-card > p {
+    color: black;
+
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+  margin-top: 16px;
+}
+
+.trust-card > hr {
+  width: 60px;
+  text-align: justify;
+  margin-top: 40px;
+  border: 3px solid #55b76b;
+}
+
+.mobTrust-container {
+  display: none;
+}

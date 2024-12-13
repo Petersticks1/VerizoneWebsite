@@ -1,0 +1,130 @@
+.explore {
+    /* /* margin-top:140px; */
+    margin-bottom:140px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.explore-container {
+    justify-items: center;
+  
+}
+
+.explore-container h1 {
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 62.17px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    color: #333333;
+}
+
+.explore-container p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    padding: 0.5rem;
+}
+
+.explore-states {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 2rem;
+}
+
+.locals {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 4px;
+}
+
+.locals ul {
+    list-style-type: none;
+    align-items: center;
+}
+
+.locals ul li {
+    font-size: 16.29px;
+    font-weight: 400;
+    line-height: 25.45px;
+    text-align: left;
+}
+
+.explore-states .logo {
+    width: 366.43px;
+    height: 458.04px;
+    gap: 2rem;
+    justify-items: center;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: #55b76b;
+    border: solid 2px #4da560;
+    border-radius: 20.36px;
+}
+
+.logos {
+    justify-items: center;
+}
+
+.logos h3 {
+    font-size: 24.43px;
+    font-weight: 600;
+    line-height: 25.45px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 720px) {
+    .explore {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .explore-container h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.26px;
+        text-align: center;
+        width: 343px;
+        height: 29px;
+    }
+
+    .explore-container p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.63px;
+        text-align: center;
+        text-decoration-skip-ink: none;
+        width: 339.84px;
+        height: 36.83px; 
+    }
+
+    .explore-states {
+        flex-direction: column;
+        justify-items: center;
+        
+    }
+
+    .explore-states .logo{
+        width:100%;
+    }
+
+
+    .explore-states .logo ul li {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 23.79px;
+        text-align: left;
+        text-decoration-skip-ink: none;
+    }
+}

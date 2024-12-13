@@ -1,0 +1,155 @@
+/* index.css or App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --clr-accent-400: hsla(134, 36%, 42%, 1);
+  --clr-accent-300: hsla(133, 40%, 53%, 1);
+  --clr-accent-200: hsla(180, 42%, 95%, 1);
+  --clr-accent-100: hsla(0, 0%, 97%, 1);
+
+  --clr-primary-300: hsla(0, 0%, 0%, 1);
+  --clr-primary-200: hsla(0, 0%, 18%, 1);
+
+  --clr-neutral-300: hsla(0, 0%, 19%, 1);
+  --clr-neutral-200: hsla(0, 0%, 37%, 1);
+  --clr-neutral-100: hsla(0, 0%, 100%, 1);
+
+  /*   bg
+ */
+  --bg-dark-green: hsla(134, 37%, 24%, 1);
+  --bg-dark-green2: hsla(133, 36%, 39%, 1);
+  --bg-green: hsla(133, 40%, 53%, 1);
+  --bg-light-green: hsla(180, 42%, 95%, 1);
+  --bg-light-gray: hsla(120, 7%, 95%, 1);
+  --bg-light: #fff;
+
+  /*   button
+ */
+  --bg-button: var(--bg-light-green);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+.wrapper {
+  background-color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.paddings {
+  padding: 1.5rem;
+}
+
+.container-margin {
+  margin-block: 41.5px;
+}
+
+.innerWidth {
+  width: 100%;
+}
+
+.flexCenter {
+  display: flex;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flexColCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flexColStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.flexColEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.primaryText {
+  color: #1f3e72;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.secondaryText {
+  color: rgb(140 139 139);
+  font-size: 0.9rem;
+}
+.orangeText {
+  color: orange;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* media queries */
+@media (min-width: 1536px) {
+  .innerWidth {
+    max-width: 1280px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .paddings {
+    padding: 4rem;
+  }
+}
+
+@media (min-width: 1280px), (min-width: 768px) {
+  .paddings {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .primaryText {
+    font-size: 1.5rem;
+  }
+  .orangeText {
+    font-size: 1.2rem;
+  }
+}
+
+.button {
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  color: white;
+  background: var(--blue-gradient);
+  border: none;
+  border-radius: 4px;
+  transition: all 300ms ease-in;
+}
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

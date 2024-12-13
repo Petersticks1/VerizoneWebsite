@@ -1,0 +1,143 @@
+.verify-top-container {
+  background-color: var(--clr-accent-100);
+}
+.verify-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 378px;
+  height: 538.48px;
+  gap: 24.64px;
+  padding-block: 29.24px;
+  margin-inline: auto;
+}
+
+.verify-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  gap: 10.76px;
+  padding: 4.87px 19.81px;
+}
+
+.verify-left p {
+  font-size: 10px;
+  line-height: 12.19px;
+  font-weight: 400;
+}
+.verify-left h2 {
+  font-size: 28px;
+  line-height: 34.13px;
+  font-weight: 700;
+}
+.verify-left .text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  margin-block: auto;
+}
+
+.verify-left button {
+  cursor: pointer;
+  background-color: var(--bg-green);
+  color: var(--clr-neutral-100);
+  font-size: 8.21px;
+  font-weight: 500;
+  line-height: 10.01px;
+
+  border: none;
+  border-radius: 2.44px;
+  padding: 8.53px 14.62px;
+  width: 86.24px;
+  transition: background-color 0.3s;
+}
+
+.verify-left button:hover {
+  background-color: #3e8e57;
+  color: white;
+}
+
+.verify-image {
+  width: 100%;
+  height: 100%;
+  background: url(/Verified.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: auto;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .verify-main-container {
+    width: 100%;
+    max-width: 1140px;
+    gap: 0;
+    display: flex;
+    flex-direction: row;
+    margin-inline: auto;
+  }
+
+  .verify-left {
+    flex: 2;
+    max-width: 618.95px;
+    text-align: right;
+    gap: 17.66px;
+    padding: 8px 32.53px;
+    align-items: flex-end;
+  }
+
+  .verify-left p {
+    font-size: 12px;
+    line-height: 14.63px;
+    font-weight: 400;
+    text-align: right;
+  }
+  .verify-left h2 {
+    font-size: 51px;
+    line-height: 62.17px;
+    font-weight: 700;
+  }
+  .verify-left .text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-block: auto;
+  }
+
+  .verify-left button {
+    cursor: pointer;
+    background-color: var(--bg-green);
+    color: var(--clr-neutral-100);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+
+    border-radius: 4px;
+    padding: 14px 24px;
+    width: 116px;
+  }
+
+  .verify-left button:hover {
+    background-color: #3e8e57;
+    color: white;
+  }
+
+  .verify-image {
+    flex: 1;
+    width: 405.05px;
+    height: 405.05px;
+    background: url(/Verified.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

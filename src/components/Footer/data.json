@@ -1,0 +1,42 @@
+[
+  {
+    "header": "About Us",
+    "info": {
+      "image": "/mail.png",
+      "content": "info@verizone.com"
+    },
+    "contactNumber": {
+      "image": "/call.png",
+      "content": "0706 090 0928"
+    },
+    "address": {
+      "image": "/map.png",
+      "content": "1, Agbomabiwon Rd Guzape, Abuja"
+    }
+  },
+  {
+    "header": "Quick Links",
+    "links": ["About us", "FAQ", "Blog", "Contact us"]
+  },
+  {
+    "header": "Follow us",
+    "socialMedia": {
+      "Facebook": {
+        "image": "/Facebook.png",
+        "content": ""
+      },
+      "Twitter": {
+        "image": "/Twitter.png",
+        "content": ""
+      },
+      "Instagram": {
+        "image": "/Instagram.png",
+        "content": ""
+      }
+    }
+  },
+  {
+    "header": "Terms & Conditions",
+    "policies": ["Privacy Policy", "Cookies Policy", "Compliance"]
+  }
+]
