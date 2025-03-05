@@ -14,13 +14,13 @@
   gap: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1124px) {
   .faq-body {
     flex-direction: row;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .faq-body {
     justify-content: center;
     align-items: center;
@@ -163,4 +163,11 @@
 
 .faq-contain > button:hover {
   background: #45a15b;
+}
+
+@media (min-width: 500px) and (max-width: 1024px) {
+
+.faq-contain{
+  display: none;
+}
 }

@@ -12,18 +12,44 @@ const Hero = () => {
             <span className="heading-text mobile">
               Protect <br /> Your Property
             </span>
+            <span className="heading-text tablet">Protect Your Property</span>
             <br />
-            Investment with <span className="green">Verizone</span>
+            <p className="investment">
+              Investment with{" "}
+              <strong className="text-green-500 font-extrabold">
+                Verizone
+              </strong>
+            </p>
           </h1>
           <p>
             Ensure your investment is safe with comprehensive legal and
             ownership checks.
           </p>
 
-          <button type="button">Register</button>
+          <button type="button">Login</button>
         </div>
 
-        <div className="hero-image"></div>
+        <div className="hero-images">
+          <div className="hero-image"></div>
+        </div>
+      </div>
+      <div className="tablets ">
+        <div className="z-[1000]">
+          <h1>Protect Your Property</h1>
+          <h5>
+            Investment with <span className="text-green-600">Verizone</span>
+          </h5>
+          <p>
+            Ensure your investment is safe with comprehensive
+            <br /> legal and ownership checks.
+          </p>
+          <button
+            type="button"
+            className="bg-green-500 text-white hover:bg-green-400 hero-button"
+          >
+            Register
+          </button>
+        </div>
       </div>
     </main>
   );

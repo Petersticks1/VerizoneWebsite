@@ -2,12 +2,11 @@ import PropTypes from "prop-types";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./Testimonials.css";
 import testimonials from "./Testimonials-data.json";
 import { useRef } from "react";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 
-const Testimonials = () => {
+const Jasa = () => {
   const sliderRef = useRef(null);
 
   const settings = {
@@ -19,7 +18,6 @@ const Testimonials = () => {
     arrows: false,
     fade: true,
   };
-
   return (
     <div className="testimonial-container">
       <div>
@@ -80,4 +78,4 @@ SamplePrevArrow.propTypes = {
   onClick: PropTypes.func,
 };
 
-export default Testimonials;
+export default Jasa;

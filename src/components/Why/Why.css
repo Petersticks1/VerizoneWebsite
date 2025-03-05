@@ -108,7 +108,7 @@
   box-shadow: 0px 0px 9px 1px #8bd2a066;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .why-container-inner {
     padding: 20px;
     flex-direction: column;
@@ -121,7 +121,9 @@
   .why-container-right {
     max-width: 100%;
   }
-
+  p {
+    line-height: 18px;
+  }
   .pe-cicrle {
     display: flex;
     flex-direction: column;
@@ -145,14 +147,17 @@
   }
 
   .why-container-left > p {
-    font-size: 12px;
-    line-height: 14.63px;
+    font-size: 14px;
+    line-height: 18px;
     text-align: center;
   }
 
-  .why-container-left > img {
+  .why-container-left > div {
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
     border-radius: 14.84px 0px 0px 0px;
   }
 
@@ -173,4 +178,3 @@
     align-items: center;
   }
 }
-

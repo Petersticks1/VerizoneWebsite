@@ -19,7 +19,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   text-align: center;
   gap: 10.76px;
   padding: 4.87px 19.81px;
@@ -76,7 +75,31 @@
   display: block;
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 500px) and (max-width: 1024px) {
+  .verify-left p {
+    font-size: 16px;
+  }
+  .verify-left h2 {
+    font-size: 32px;
+    text-wrap: nowrap;
+  }
+  .verify-left .text {
+    font-size: 14px;
+  }
+
+  .verify-left button {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 15px 70px;
+    transition: background-color 0.3s;
+  }
+
+
+}
+
+@media screen and (min-width: 1124px) {
   .verify-main-container {
     width: 100%;
     max-width: 1140px;

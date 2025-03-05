@@ -10,7 +10,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const MobFooter = () => {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  const isMobile = useMediaQuery("(max-width: 1024px)");
   const [isExpanded, setIsExpanded] = useState(false);
 
   if (!isMobile) return null;
@@ -81,7 +81,7 @@ const MobFooter = () => {
           <input
             type="email"
             placeholder="Email Address"
-            className="p-2 w-3/4 text-black rounded-l-lg border border-gray-300 focus:outline-none"
+            className="p-2 w-full text-black rounded-l-lg border border-gray-300 focus:outline-none"
           />
           <button
             type="submit"

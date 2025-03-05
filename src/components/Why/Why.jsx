@@ -12,11 +12,13 @@ const Why = () => {
             risks. Whether you’re a home buyer, investor, or seller, we’re here
             to help you make confident, informed decisions.
           </p>
-          <img src="./Why.png" />
+          <div>
+            <img src="./Why.png" />
+          </div>
         </div>
         <div className="why-container-right">
           <div>
-            <p>To three reasons</p>
+            <p>Top three reasons</p>
             <span>
               why thousands trust us for reliable, accurate, and timely
               verification.

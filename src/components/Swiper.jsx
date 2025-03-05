@@ -1,15 +1,16 @@
 import HowData from "../components/How/data.json";
 import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css"; // Import Swiper CSS
 import "./Swiper.css";
 
 export default function HowSwiper() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Check if the screen is mobile
+    // Check if the screen is mobile or tablet
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768); // Define mobile breakpoint
+      setIsMobile(window.innerWidth < 1024); // Include tablet sizes (<1024px) as "mobile"
     };
 
     // Initial check
@@ -31,13 +32,18 @@ export default function HowSwiper() {
         </div>
 
         {isMobile ? (
-          // Mobile View: Swiper
+          // Mobile and Tablet View: Swiper
           <Swiper
-            slidesPerView={1.4}
-            spaceBetween={40}
-            loop={true}
+            slidesPerView={1.4} // Default for mobile
+            spaceBetween={20}
+            // loop={true}
             centeredSlides={true}
-            // className="mySwiper"
+            breakpoints={{
+              768: {
+                slidesPerView: 2, // Tablet: 2 slides
+                spaceBetween: 30,
+              },
+            }}
           >
             {HowData.map((data, index) => (
               <SwiperSlide key={index} className="how-card-container">

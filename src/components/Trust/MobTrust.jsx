@@ -25,7 +25,7 @@ const MOBTRUST = () => {
         <Swiper
           spaceBetween={20}
           slidesPerView={1.2}
-          loop={true}
+          loop={false}
           centeredSlides={true} // Center the current slide
         >
           <SwiperSlide>

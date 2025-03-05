@@ -9,6 +9,7 @@ import Hero from "./components/Hero/Hero";
 import Footer from "./components/Footer/Footer";
 import Mobfooter from "./components/Footer/mob-footer";
 import Loader from "./components/Loader/Loader";
+// import Jasa from "./components/Testimonials/j";
 
 const About = React.lazy(() => import("./components/About/About"));
 const Trust = React.lazy(() => import("./components/Trust/Trust"));
@@ -90,6 +91,9 @@ function App() {
       <Suspense fallback={<div></div>}>
         <Testimonials />
       </Suspense>
+      {/* <Suspense fallback={<div></div>}>
+        <Jasa />
+      </Suspense> */}
       <Suspense fallback={<div></div>}>
         <Verify />
       </Suspense>
