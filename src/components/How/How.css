@@ -213,3 +213,32 @@
     line-height: 18.29px;
   }
 }
+
+
+@media (min-width: 500px) and (max-width: 1024px){
+  .how-card{
+ /* max-height: 1200px; */
+ width: 100%;
+ height: 464px;
+ width: 340.43px;
+ 
+  }
+
+  .how-card-content{
+    height: 364px;
+    width: 240.43px;
+    padding: 20px;
+    /* height: 90%; */
+   
+  }
+  .how-card::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 50%;
+    height: 465px;
+    background-color: hsl(133, 36%, 39%);
+  }
+
+}

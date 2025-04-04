@@ -170,6 +170,7 @@
 @media (min-width: 500px) and (max-width: 1024px) {
   .testimonial-container {
     padding: 20px;
+    width: 100%;
   }
 
   .testimonial-content {
@@ -181,6 +182,7 @@
     width: 350px;
     height: 350px;
     margin: 0 auto 20px auto;
+    margin-top: 80px;
   }
 
   .testimonial-text {
@@ -208,9 +210,28 @@
 
   .navigation-container {
     gap: 15px;
+    right: 20%;
+    top: 104%;
+    left: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .arrow {
     font-size: 24px;
+    
+  }
+
+  .slick-dots {
+    position: absolute;
+    bottom:-5%;
+    left: -2%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
   }
 }

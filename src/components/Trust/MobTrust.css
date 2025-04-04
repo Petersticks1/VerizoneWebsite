@@ -114,7 +114,7 @@
 @media (min-width: 500px) and (max-width: 1024px) {
   .trust-1 img {
     max-width: 400px;
-    height: 450px;
+    height: 550px;
   }
   .trust-1 > div > h1 {
     font-size: 70px;
@@ -149,4 +149,21 @@
     height: 0px;
     border: 2.24px 0px 0px 0px;
   }
+  .mobTrust-container {
+    display: block;
+  }
+
+  .trust-container {
+    display: none;
+  }
+
+  .trust-card-1{
+    padding: 40px;
+  }
+ 
 }
+/* @media (min-width: 500px) and (max-width: 1024px){
+   .mobTrust-container {
+    display: block;
+  }
+} */

@@ -72,9 +72,9 @@ button:hover {
 
 @media (min-width: 500px) and (max-width: 1024px) {
   .contact {
-    max-width: 500px;
+    max-width: 1024px;
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
     color: white;
     margin: 0 auto;
     padding-bottom: 20px;
