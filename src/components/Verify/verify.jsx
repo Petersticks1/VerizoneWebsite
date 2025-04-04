@@ -1,4 +1,4 @@
-import "./Verify.css";
+import "./verify.css";
 
 const Verify = () => {
   return (
