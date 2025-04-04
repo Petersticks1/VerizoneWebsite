@@ -170,3 +170,13 @@
     position: relative;
   }
 }
+
+@media (min-width: 500px) and (max-width: 1024px){
+  .mission-container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 38px;
+    padding: 0;
+  
+  }
+}

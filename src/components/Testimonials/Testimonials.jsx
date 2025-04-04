@@ -23,7 +23,7 @@ const Testimonials = () => {
   return (
     <div className="testimonial-container">
       <div>
-        <h1 className="text-center md:absolute font-bold text-3xl md:text-4xl md:right-[35.3%]">
+        <h1 className="text-center md:absolute font-bold text-3xl md:text-4xl md:right-[35.3%] ">
           Testimonials
         </h1>
         <div className="relative">

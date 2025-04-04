@@ -52,7 +52,7 @@ export default function HowSwiper() {
                     <span>{data.index}</span>
                     <h3>{data.header}</h3>
                     <p>{data.text}</p>
-                  </div>
+                  </div>  
                 </div>
               </SwiperSlide>
             ))}

@@ -74,7 +74,7 @@ const About = () => {
       </div>
       <div className="about-right">
         <div className="about-text">
-          <p>About Verizon?</p>
+          <p>About Verizone ?</p>
           <h2>Secure your property Investment</h2>
           <p className="text">
             Building Trust Through Accuracy, Expertise, and Integrity.

@@ -21,6 +21,7 @@ const Hero = () => {
               </strong>
             </p>
           </h1>
+
           <p>
             Ensure your investment is safe with comprehensive legal and
             ownership checks.
@@ -34,7 +35,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="tablets ">
-        <div className="z-[1000]">
+        <div className="z-[4]">
           <h1>Protect Your Property</h1>
           <h5>
             Investment with <span className="text-green-600">Verizone</span>
@@ -49,6 +50,9 @@ const Hero = () => {
           >
             Register
           </button>
+        </div>
+        <div>
+          <div className="hero-image"></div>
         </div>
       </div>
     </main>
